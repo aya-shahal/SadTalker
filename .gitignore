@@ -172,3 +172,4 @@ checkpoints
 
 # Mac
 .DS_Store
+venv_sadtalker_py311/

@@ -148,4 +148,4 @@ if __name__ == '__main__':
     device_ids = opt.device_ids.split(",")
     device_ids = cycle(device_ids)
     for data in tqdm(pool.imap_unordered(run, zip(filenames, args_list, device_ids))):
-        None
+        pass
